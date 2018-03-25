@@ -1,6 +1,6 @@
 defmodule Account do
   def list_deposits(deposits) do
-    list_deposits(deposits,    )
+    list_deposits(deposits,  :asc  )
   end
 
   def list_deposits(deposits, :asc) do
@@ -8,7 +8,7 @@ defmodule Account do
   end
 
   def list_deposits(deposits, :desc) do
-    
+    sort_desc(deposits) |> list
   end
 
   def sort_desc(deposits) do
