@@ -1,4 +1,4 @@
-defmodule Geometry do
+defmodule PatternMatching do
 
   def area({:rectangle, a, b}) do
     a*b
@@ -15,5 +15,5 @@ defmodule Geometry do
   def area(unknown) do
     {:error, {:unknown_shape, unknown}}
   end
-  
+
 end

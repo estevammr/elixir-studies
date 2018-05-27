@@ -1,4 +1,4 @@
-defmodule Account do
+defmodule AccountTwo do
   def list_deposits(deposits) do
     list_deposits(deposits,  :asc  )
   end
@@ -24,4 +24,4 @@ defmodule Account do
   end
 end
 
-Account.list_deposits([9.50,5.0,13.0,3.0,1.0])
+AccountTwo.list_deposits([9.50,5.0,13.0,3.0,1.0])
